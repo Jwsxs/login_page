@@ -13,11 +13,20 @@
         input {
             padding-left: 3px;
         }
-    </style>
+        /*
+        img {
+            transition: transform 150ms ease;
+        }
+
+        img:hover {
+            transform: scale(1.25, 1.25);
+        }
+        */
+        </style>
 
     <div class="flex min-h-screen flex-col justify-center lg:px-8">
         <div>
-            <img class="mx-auto h-30 w-auto rounded-md border-8" src="https://picsum.photos/200">
+            <img class="transform transition-transform duration-150 hover:scale-125 mx-auto h-30 w-auto rounded-md border-8" src="https://picsum.photos/200" alt="Lorem Picsum! The Lorem Ipsum for images.">
             <h1 class="font-semibold text-white text-center text-2xl tracking-wider mt-10">Entre em sua conta</h1>
         </div>
 
@@ -36,7 +45,7 @@
                 <div>
                     <div class="flex justify-between">
                         <label class="text-white font-semibold" for="password">Password:</label>
-                        <a class="text-slate-400 text-sm hover:text-gray-200 text-xs font-semibold" href="#">Forgot it?</a>
+                        <a class="text-slate-400 text-md hover:text-gray-200 text-xs font-semibold" href="#">Esqueceu?</a>
                     </div>
                     
                     <div>
